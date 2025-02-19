@@ -3,7 +3,6 @@ import { BrowserRouter, Router, Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home';
 import Navbar from './components/Navbar';
 import Places from './components/Places';
-import Footer from './components/Footer';
 import About from './Pages/About';
 import Contactx from './Pages/Contactx';
 
@@ -20,7 +19,6 @@ function App() {
         <Route path="/contact" element={<Contactx />}></Route>
         
       </Routes>
-      <Footer />
     </BrowserRouter>
   );
 }
